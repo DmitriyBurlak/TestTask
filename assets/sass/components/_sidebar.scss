@@ -1,0 +1,33 @@
+.sidebar {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    padding: 10px;
+    width: 60px;
+    background: #313643;
+    // border-right: 2px solid #E6ECF5;
+    // background-color: #fff;
+
+    &__right {
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        left: 60px;
+        width: 40px;
+        height: 100vh;
+        border-right: 2px solid #E6ECF5;
+        background-color: #fff;
+        padding: 12px 6px 0 4px;
+    }
+
+    &__user {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border: 2px solid #E6ECF5;
+        border-radius: 50px;
+    }
+}

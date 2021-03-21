@@ -1,0 +1,22 @@
+.sidebar {
+    width: 60px;
+    height: 100vh;
+    padding: 10px;
+    background: #313643;
+
+    &__right {
+        width: 40px;
+        height: 100vh;
+        padding: 12px 6px 0 4px;
+        border-right: 2px solid #E6ECF5;
+        background: #fff;
+    }
+
+    &__user {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border: 2px solid #E6ECF5;
+        border-radius: 50px;
+    }
+}

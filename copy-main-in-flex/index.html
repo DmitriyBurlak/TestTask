@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Test task</title>
+</head>
+<body>
+
+    <div class="app">
+        
+        <section class=sidebar>
+            <div class="sidebar__user">
+                <img src="" alt="">
+            </div>
+        </section>
+
+        <section class="sidebar__right">
+
+        </section> 
+
+        <section class="foundation">
+            <header class="header">
+
+            </header>
+            
+            <div class="info">
+                <div class="wrapper">
+                    <div class="info__left">
+                        <div class="info__title">название раздела</div> 
+                    </div>
+                    <div class="info__right"><a href="#">Инструкция</a></div>
+                </div>
+            </div> 
+
+
+            <main class="main">
+                <div class="wrapper">
+                    <div class="main__content">
+                        <ul class="main__content__navigation">
+                            <li class="active">Основное</li>
+                            <li>Информция о награде</li>
+                            <li>Условия получения</li>
+                            <li>Пооцрения</li>
+                            <li>Стилизация</li>
+                            <li>Технические настройки</li>
+                        </ul>
+        
+                        <div class="main__content__base">
+                            <div class="base__left">
+                               <div class="pazl">
+                                    <div class="pazl__item"></div>
+                                    <div class="pazl__item pazl__item_pink"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_blue"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_orange"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_green"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_pink"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_blue"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_orange"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                    <div class="pazl__item pazl__item_green"><img src="assets/images/svg/puzzle.svg" alt=""></div>
+                                </div>
+                            </div>
+        
+                            <div class="base__right form-elements">
+                                <div class="form-elements__item">
+                                    <select name="" id="" class="item__select">
+                                        <option value="1">Пазл</option>
+                                        <option value="2">Ценная награда</option>
+                                        <option value="3">Случайная награда</option>
+                                    </select>
+                                    <span></span>
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Название</div>
+        
+                                    <div class="item__input-castom">
+                                        <span class="item__radius_left">Ru</span>
+                                        <input class="item__input item__input_light item__radius_right" type="text" placeholder="Имя">
+                                    </div>
+        
+                                    <div class="item__input-castom">
+                                        <span class="item__radius_left">En</span>
+                                        <input class="item__input item__input_light item__radius_right" type="text" placeholder="Name">
+                                    </div>
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Картинка пазла</div>
+                                    <div class="item__content item__content__images item_disabled">
+                                        <div class="content__images">
+                                             <img src="" alt="">
+                                        </div>
+        
+                                        <div class="content__right">
+                                            <button class="button" type="button">Загрузить</button>
+                                            <div class="item__text">
+                                                или <a href="#">Выбрать из колекции</a> <br>
+                                                разрешение 550*550
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Сколько деталей у пазла</div>
+                                    <div class="item__input-castom">
+                                        <div class="item__input-castom_left item__radius_left">
+                                            <span class="">по Горизонтали</span>
+                                            <input class="item__input" type="text" value="3">
+                                        </div>
+                                        <div class="item__input-castom_right item__radius_right">
+                                            <span>по Вертикали</span>
+                                            <input class="item__input" type="text" value="3">
+                                        </div>
+                                    </div>
+        
+        
+        
+                                    
+                                </div>
+        
+                                <div class="form-elements__item form-elements__item_flex">
+                                    <div class="item__title">Может ли награда выдавать купоны</div>
+                                    <select class=" item__select  item__select_light" name="" id="">
+                                        <option value="1">Да</option>
+                                        <option value="2">Нет</option>
+                                    </select>
+                                    <span></span>
+                                    
+                                </div>
+        
+                                <div class="form-elements__item form-elements__item_flex">
+                                    <div class="item__title">Сообщение при получении награды</div>
+                                    <input class="item__input item__input_light" type="text" placeholder="Введите значение">
+                                    
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Сколько раз может получить один игрок награду</div>
+                                    <div class="item__input-castom">
+                                        <input class="item__input item__radius_left" type="text" value="1">
+                                        <span class="item__radius_right">Раз</span>
+                                    </div>
+                                    <div class="item__input-castom">
+                                        <input class="item__input item__radius_left" type="text" value="1">
+                                        <span class="item__radius_right">Раз</span>
+                                    </div>
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">
+                                        <h2>Повтор Элементов</h2> 
+                                    </div>
+        
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Название</div>
+        
+                                    <div class="item__input-castom">
+                                        <span class="item__radius_left">Ru</span>
+                                        <input class="item__input item__input_light item__radius_right" type="text" placeholder="Имя">
+                                    </div>
+        
+                                    <div class="item__input-castom">
+                                        <span class="item__radius_left">En</span>
+                                        <input class="item__input item__input_light item__radius_right" type="text" placeholder="Name">
+                                    </div>
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Картинка пазла</div>
+                                    <div class="item__content item__content__images item_disabled">
+                                        <div class="content__images">
+                                            <img src="" alt=""> 
+                                        </div>
+        
+                                        <div class="content__right">
+                                            <button class="button" type="button">Загрузить</button>
+                                            <div class="item__text">
+                                                или <a href="#">Выбрать из колекции</a> <br>
+                                                разрешение 550*550
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Сколько деталей у пазла</div>
+                                    <div class="item__input-castom">
+                                        <div class="item__input-castom_left item__radius_left">
+                                            <span class="">по Горизонтали</span>
+                                            <input class="item__input" type="text" value="3">
+                                        </div>
+                                        <div class="item__input-castom_right item__radius_right">
+                                            <span>по Вертикали</span>
+                                            <input class="item__input" type="text" value="3">
+                                        </div>
+                                    </div>
+        
+        
+        
+                                    
+                                </div>
+        
+                                <div class="form-elements__item form-elements__item_flex">
+                                    <div class="item__title">Может ли награда выдавать купоны</div>
+                                    <select class=" item__select  item__select_light" name="" id="">
+                                        <option value="1">Да</option>
+                                        <option value="2">Нет</option>
+                                    </select>
+                                    <span></span>
+                                    
+                                </div>
+        
+                                <div class="form-elements__item form-elements__item_flex">
+                                    <div class="item__title">Сообщение при получении награды</div>
+                                    <input class="item__input item__input_light" type="text" placeholder="Введите значение">
+                                    
+                                </div>
+        
+                                <div class="form-elements__item">
+                                    <div class="item__title">Сколько раз может получить один игрок награду</div>
+                                    <div class="item__input-castom">
+                                        <input class="item__input item__radius_left" type="text" value="1">
+                                        <span class="item__radius_right">Раз</span>
+                                    </div>
+                                    <div class="item__input-castom">
+                                        <input class="item__input item__radius_left" type="text" value="1">
+                                        <span class="item__radius_right">Раз</span>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <div class="settings">
+            <img src="assets/images/svg/settings.svg" alt="">
+        </div>
+
+    </div>
+</body>
+</html>

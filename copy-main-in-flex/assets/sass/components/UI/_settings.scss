@@ -1,0 +1,28 @@
+.settings {
+    position: fixed;
+    right: 0;
+    bottom: 12px;
+    border-radius: 5px 0 0 5px;
+    width: 40px;
+    height: 40px;
+    background: #313643CC;
+    cursor: pointer;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: .6;
+        width: 21px;
+        height: 21px;
+        filter: invert(99%) sepia(67%) saturate(303%) hue-rotate(204deg) brightness(118%) contrast(100%);
+        @extend %transition;
+    }
+
+    &:hover {
+        img {
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+html {
+  font-size: 10px;
+}
+body {
+  @extend %font;
+  color: $color-text;
+  overflow-x: hidden;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+input, textarea, select, button 
+{outline:none;}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px #002B7E;
+  background: #888EA7;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 2px;
+}
+
